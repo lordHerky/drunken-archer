@@ -1,0 +1,23 @@
+{
+  "name": "drunken-archer",
+  "version": "0.0.0",
+  "description": "Angular generator that takes a built out view and generates a controller and tests for it",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lordHerky/drunken-archer.git"
+  },
+  "author": "Dan Slaubaugh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordHerky/drunken-archer/issues"
+  },
+  "homepage": "https://github.com/lordHerky/drunken-archer",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "jshint": "^2.5.5"
+  }
+}
