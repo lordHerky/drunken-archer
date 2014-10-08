@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Angular generator that takes a built out view and generates a controller and tests for it",
   "main": "index.js",
+  "private": "true",
   "scripts": {
     "test": "node_modules/.bin/jasmine-node ."
   },
@@ -20,6 +21,7 @@
     "jshint": "^2.5.5",
     "gulp": "^3.8.8",
     "gulp-coverage": "^0.3.27",
-    "gulp-jasmine": "^1.0.1"
+    "gulp-jasmine": "^1.0.1",
+    "minimist": "^1.1.0"
   }
 }
