@@ -23,5 +23,8 @@
     "gulp-coverage": "^0.3.27",
     "gulp-jasmine": "^1.0.1",
     "minimist": "^1.1.0"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.7.3"
   }
 }
